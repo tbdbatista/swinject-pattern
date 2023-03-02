@@ -20,6 +20,6 @@ In the first version, the name of the city is harcoded, as the main goal of this
 ## Result
 
 <div style="display:flex;">
-  <img src="./images/loading.png" alt="Loading while fetching data" height="1000"/>
-  <img src="./images/weather.png" alt="Weather data from given location" height="1000"/>
+  <img src="./images/loading.png" alt="Loading while fetching data" height="800"/>
+  <img src="./images/weather.png" alt="Weather data from given location" height="800"/>
 </div>
