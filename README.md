@@ -7,10 +7,6 @@ The application is a simple weather app that displays the current weather condit
 
 The app is built using the Swinject Pattern, which provides a lightweight and easy-to-use dependency injection framework for iOS applications. 
 
-<img src="./images/loading.png" alt="Image description" width="250" height="250" />
-
-
-
 ## Installation
 To install the app, follow these steps:
 
@@ -23,6 +19,6 @@ In the first version, the name of the city is harcoded, as the main goal of this
 
 ## Result
 
-![Loading while fetching data](./images/loading.png)
+<img src="./images/loading.png" alt="Loading while fetching data" width="250" height="600"/>
 
-![Weather data from given location](./images/weather.png)
+<img src="./images/loading.png" alt="Weather data from given location" width="250" height="600" />
