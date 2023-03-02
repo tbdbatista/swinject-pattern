@@ -20,6 +20,7 @@
 		DF41CA7729AF799C0048512A /* Prod_Api_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF41CA7629AF799C0048512A /* Prod_Api_Info.plist */; };
 		DF41CA7B29AF7A760048512A /* BaseEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41CA7A29AF7A760048512A /* BaseEnv.swift */; };
 		DF41CA7E29AF99630048512A /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF41CA7D29AF99630048512A /* WeatherView.swift */; };
+		DFCBFEAF29B10E1D000C9095 /* WeatherEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCBFEAE29B10E1D000C9095 /* WeatherEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		DF41CA7629AF799C0048512A /* Prod_Api_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Prod_Api_Info.plist; sourceTree = "<group>"; };
 		DF41CA7A29AF7A760048512A /* BaseEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEnv.swift; sourceTree = "<group>"; };
 		DF41CA7D29AF99630048512A /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		DFCBFEAE29B10E1D000C9095 /* WeatherEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				DF41CA7C29AF99530048512A /* View */,
 				DF41CA4D29AE63CA0048512A /* WeatherViewController.swift */,
+				DFCBFEAE29B10E1D000C9095 /* WeatherEnum.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				DF41CA4429AE2EB30048512A /* WeatherResponse.swift in Sources */,
 				DF41CA7B29AF7A760048512A /* BaseEnv.swift in Sources */,
 				DF41CA2529AD47E70048512A /* AppDelegate.swift in Sources */,
+				DFCBFEAF29B10E1D000C9095 /* WeatherEnum.swift in Sources */,
 				DF41CA2729AD47E70048512A /* SceneDelegate.swift in Sources */,
 				DF41CA4E29AE63CA0048512A /* WeatherViewController.swift in Sources */,
 				DF41CA7E29AF99630048512A /* WeatherView.swift in Sources */,
