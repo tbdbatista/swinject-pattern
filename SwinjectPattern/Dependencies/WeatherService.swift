@@ -9,6 +9,7 @@ import Foundation
 
 protocol WeatherServiceProtocol {
     func fetchWeatherData(city: String, completion: @escaping (Result<WeatherResponse, Error>) -> Void)
+    var session: URLSession { get }
 }
 
 class WeatherService: WeatherServiceProtocol {

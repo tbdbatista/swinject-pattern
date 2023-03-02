@@ -22,10 +22,6 @@ class DependencyInjection {
         container.register(WeatherServiceProtocol.self) { resolver in
             WeatherService(session: resolver.resolve(URLSession.self)!)
         }
-        
-        container.register(WeatherServiceProtocol.self) { resolver in
-            WeatherService(session: resolver.resolve(URLSession.self)!)
-        }
     }
 }
 
