@@ -19,6 +19,6 @@ In the first version, the name of the city is harcoded, as the main goal of this
 
 ## Result
 
-<img src="./images/loading.png" alt="Loading while fetching data" width="250" height="600"/>
+![Loading while fetching data](./images/loading.png)
 
-<img src="./images/loading.png" alt="Weather data from given location" width="250" height="600" />
+![Weather data from given location](./images/weather.png)
