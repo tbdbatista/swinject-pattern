@@ -12,6 +12,14 @@ class WeatherViewController: UIViewController {
     var weatherService: WeatherServiceProtocol!
     let weatherView = WeatherView()
     
+    init(weatherService: WeatherServiceProtocol) {
+        self.weatherService = weatherService
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     override func loadView() {
         view = weatherView

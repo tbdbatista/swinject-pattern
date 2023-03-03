@@ -6,7 +6,6 @@
 //
 
 import Swinject
-import Foundation
 import UIKit
 
 class DependencyInjection {
@@ -14,7 +13,7 @@ class DependencyInjection {
     
     let container = Container()
     
-    func setup() {
+    func resolveDependencyInjection(){
         container.register(URLSession.self) { _ in
             URLSession.shared
         }
@@ -22,6 +21,11 @@ class DependencyInjection {
         container.register(WeatherServiceProtocol.self) { resolver in
             WeatherService(session: resolver.resolve(URLSession.self)!)
         }
+        
+        container.register(WeatherViewController.self) { resolver in
+            WeatherViewController(weatherService: resolver.resolve(WeatherServiceProtocol.self)!)
+        }
     }
+
 }
 

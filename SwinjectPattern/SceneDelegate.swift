@@ -17,10 +17,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = scene as? UIWindowScene else { return }
         
         container = dependencyInjection.container
-        dependencyInjection.setup()
+        dependencyInjection.resolveDependencyInjection()
         
-        let weatherViewController = WeatherViewController()
-        weatherViewController.weatherService = container?.resolve(WeatherServiceProtocol.self)
+        let weatherViewController = container?.resolve(WeatherViewController.self)
         
         let window = UIWindow(windowScene: windowScene)
         window.rootViewController = weatherViewController
